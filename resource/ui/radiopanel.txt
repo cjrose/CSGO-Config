@@ -178,12 +178,12 @@
 					"cmd"	"negative"
 				}
 				
-				"needbackup"
+				"cheer"
 				{
 					"hotkey"	"3"
-					"label"	"Help"
-					"cmd"	"needbackup"
-				}
+					"label"	"Cheer"
+					"cmd"	"cheer"
+				}	
 				
 				"hold"
 				{
@@ -206,25 +206,19 @@
 					"cmd"	"thanks"
 				}
 
-				"cheer"
+                
+                "needbackup"
 				{
 					"hotkey"	"7"
-					"label"	"Cheer"
-					"cmd"	"cheer"
-				}	
+					"label"	"Help"
+					"cmd"	"needbackup"
+				}
 				
 				"sorry"
 				{
 					"hotkey"	"8"
-					"label"	"Sorry"
-					"cmd"	"say_team Sorry!"
-				}	
-
-				"askfordrop"
-				{
-					"hotkey"	"9"
-					"label"	"Drop"
-					"cmd"	"needbackup; say_team Drop!"
+					"label"	"Get out"
+					"cmd"	"getout"
 				}
 			}
 		}
@@ -250,8 +244,8 @@
 					"label"	"No"
 					"cmd"	"negative"
 				}
-				
-				"cheer"
+                
+                "cheer"
 				{
 					"hotkey"	"3"
 					"label"	"Cheer"
@@ -279,19 +273,17 @@
 					"cmd"	"thanks"
 				}
 
-					
-				
 				"needbackup"
 				{
 					"hotkey"	"7"
 					"label"	"Help"
 					"cmd"	"needbackup"
-				}
+				}					
 				
 				"sorry"
 				{
 					"hotkey"	"8"
-					"label"	"Get out"
+					"label"	"Sorry"
 					"cmd"	"getout"
 				}	
 			}
